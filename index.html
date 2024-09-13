@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer>
+    </script>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="container">
+        <h3>Max Score: 10 </h3>
+        <div class="wrapper">
+            <label for="myInput">Rock Paper Scissors</label>
+            <select name="humanChoice" id="humanChoice">
+                <option value="" disabled selected>Choose an Option</option>
+                <option value="rock">Rock</option>
+                <option value="paper">Paper</option>
+                <option value="scissors">Scissors</option>
+            </select>
+        </div>
+        <div class="message-container">
+            <div class="humanChoiceContainer">
+                <label for="myChoice">My Choice:</label>
+                <p class="humanChoice"></p>
+            </div>
+            <div class="computerChoiceContainer">
+                <label for="computerChoice">Computer Choice:</label>
+                <p class="computerChoice"></p>
+            </div>
+            <p class="message"></p>
+        </div>
+        <div class="scores-container">
+            <p class="scores">My Score: <span class="humanScore">0</span></p>
+            <p class="scores">Computer Score: <span class="computerScore">0</span class="computerScore"></p>
+        </div>
+        <div class="results-container">
+            <p class="results"></p>
+        </div>
+    </div>
+    <footer>&copy; Gabriel Afotey 2024</footer>
+</body>
+</html>
